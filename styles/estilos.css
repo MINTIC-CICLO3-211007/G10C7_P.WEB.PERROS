@@ -18,34 +18,32 @@ body{
     height: 10px;
 }
 
-.mainbutton{
-    background-color: green;
-    color: white;
+button{
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
-    box-shadow: 1px 1px gray;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainbutton{
+    background-color: green;
+    color: white; 
 }
 
 .mainbutton:hover{
-    cursor: pointer;
-    box-shadow: 5px 5px gray;
-    transform: scale(1.1);
+    box-shadow: rgb(190, 226, 190);
 }
 
 .secondarybutton{
-    background-color: rgb(194, 213, 226);
+    background-color: rgb(129, 183, 219);
     color: white;
-    border: 0px;
-    padding: 5px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-    box-shadow: 1px 1px gray;
 }
 
 .secondarybutton:hover{
-    cursor: pointer;
-    box-shadow: 5px 5px gray;
-    transform: scale(1.1);
+    box-shadow: 5px 5px rgb(172, 198, 228);
 }
