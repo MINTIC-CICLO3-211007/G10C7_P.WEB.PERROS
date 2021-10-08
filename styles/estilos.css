@@ -11,9 +11,32 @@ ul{
 }
 
 body{
+<<<<<<< HEAD
     margin: 70px;
+=======
+    margin: 10px;
+>>>>>>> 5-crear-boton-nuevo-post
 }
 
 .logo{
     height: 10px;
+<<<<<<< HEAD
+=======
+}
+
+.mainbutton{
+    background-color: green;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 1px 1px gray;
+}
+
+.mainbutton:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px gray;
+    transform: scale(1.1);
+>>>>>>> 5-crear-boton-nuevo-post
 }
