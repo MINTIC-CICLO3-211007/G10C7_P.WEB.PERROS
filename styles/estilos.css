@@ -11,5 +11,25 @@ ul{
 }
 
 body{
-    margin: 0px;
+    margin: 10px;
+}
+
+.logo{
+    height: 10px;
+}
+
+.mainbutton{
+    background-color: green;
+    color: white;
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    box-shadow: 1px 1px gray;
+}
+
+.mainbutton:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px gray;
+    transform: scale(1.1);
 }
