@@ -11,32 +11,39 @@ ul{
 }
 
 body{
-<<<<<<< HEAD
-    margin: 70px;
-=======
     margin: 10px;
->>>>>>> 5-crear-boton-nuevo-post
 }
 
 .logo{
-    height: 10px;
-<<<<<<< HEAD
-=======
+    height: 30px;
 }
 
-.mainbutton{
-    background-color: green;
-    color: white;
+button{
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
-    box-shadow: 1px 1px gray;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainbutton{
+    background-color: rgb(62, 173, 62);
+    color: white; 
 }
 
 .mainbutton:hover{
-    cursor: pointer;
-    box-shadow: 5px 5px gray;
-    transform: scale(1.1);
->>>>>>> 5-crear-boton-nuevo-post
+    box-shadow: 5px 5px rgb(190, 226, 190);
+}
+
+.secondarybutton{
+    background-color: rgb(129, 183, 219);
+    color: white;
+}
+
+.secondarybutton:hover{
+    box-shadow: 5px 5px rgb(172, 198, 228);
 }
