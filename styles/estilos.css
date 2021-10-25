@@ -1,0 +1,71 @@
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+body{
+    margin: 10px;
+}
+
+.logo{
+    height: 30px;
+}
+
+.botonGenerico {
+    border: 0px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+  }
+  
+.botonGenerico:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.mainButton{
+    background-color: rgb(62, 173, 62);
+    color: white; 
+}
+
+.mainButton:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px gray;
+    transform: scale(1.1);
+}
+
+.secondaryButton{
+    background-color: #66d8f5;
+    color: white;
+}
+
+.secondaryButton:hover {
+    box-shadow: 1px 1px rgb(119, 229, 233);
+ }
+
+.buscar{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buscar:focus-within{
+    border: 1px solid blue;
+}
+
+.buscar > input{
+    outline: none;
+    border: 0px;
+}
+
