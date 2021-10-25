@@ -18,16 +18,16 @@ body{
     height: 30px;
 }
 
-button{
+.botonGenerico {
     border: 0px;
     padding: 5px 10px;
     border-radius: 10px;
     font-weight: bolder;
-}
-
-.button:hover{
-    cursor: pointer;
-    transform: scale(1.1);
+  }
+  
+.botonGenerico:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .mainbutton{
@@ -35,19 +35,20 @@ button{
     color: white; 
 }
 
-.mainbutton:hover{
-    box-shadow: 5px 5px rgb(190, 226, 190);
+.mainButton:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px gray;
+    transform: scale(1.1);
 }
 
-.secondarybutton{
-    background-color: rgb(129, 183, 219);
+.secondaryButton{
+    background-color: #66d8f5;
     color: white;
 }
 
-.secondarybutton:hover{
-    box-shadow: 5px 5px rgb(172, 198, 228);
-    margin: 0px;
-}
+.secondaryButton:hover {
+    box-shadow: 1px 1px rgb(119, 229, 233);
+ }
 
 .buscar{
     background-color: white;
@@ -64,3 +65,4 @@ button{
     outline: none;
     border: 0px;
 }
+
