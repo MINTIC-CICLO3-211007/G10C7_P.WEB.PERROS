@@ -30,7 +30,7 @@ body{
   transform: scale(1.1);
 }
 
-.mainbutton{
+.mainButton{
     background-color: rgb(62, 173, 62);
     color: white; 
 }
